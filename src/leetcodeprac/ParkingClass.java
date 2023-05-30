@@ -40,5 +40,4 @@ class ParkingClass {
         System.out.println(param_1+ " : "+param_2+ " : "+ param_3+ " : "+param_4);
 
     }
-
 }
