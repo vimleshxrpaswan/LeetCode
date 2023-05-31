@@ -1,6 +1,6 @@
 package leetcodeprac;
 
-class ParkingSystem {
+class  ParkingSystem {
    int small,big,medium;
     public ParkingSystem(int big, int medium, int small) {
 
@@ -40,4 +40,5 @@ class ParkingClass {
         System.out.println(param_1+ " : "+param_2+ " : "+ param_3+ " : "+param_4);
 
     }
+
 }

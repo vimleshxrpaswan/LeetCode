@@ -1,12 +1,10 @@
 package leetcodeprac;
 
-
+import java.util.Arrays;
 
 public class Solution {
 
-
     public static int[] twoSum(int[] numbs, int target) {
-        int[] ar2;
         for (int i = 0; i < numbs.length; i++) {
             for (int j = i + 1; j < numbs.length; j++) {
                 if (target == numbs[i] + numbs[j]) {
@@ -20,9 +18,9 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] numbs = {1, 2, 3, 4, 5};
-        int target = 5;
+        int target = 8;
         int[] ints = twoSum(numbs, target);
-        System.out.println(ints);
+        System.out.println(Arrays.toString(ints));
 
     }
 }
