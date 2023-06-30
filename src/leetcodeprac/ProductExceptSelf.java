@@ -20,4 +20,3 @@ public class ProductExceptSelf {
             System.out.println(resultList);
         }
     }
-
